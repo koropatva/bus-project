@@ -1,0 +1,3 @@
+include 'bus', 'bus-interfaces'
+project(':bus').name='bus'
+project(':bus-interfaces').name='bus-interfaces'

@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+group = 'com.bus.interfaces'
+version = '15.04.04'
+
+jar {
+    baseName = 'bus-interfaces'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+    	compile("com.fasterxml.jackson.core:jackson-databind:2.4.4")
+}

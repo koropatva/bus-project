@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+jar {
+    baseName = 'bus'
+    version =  '15.04.04'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("com.fasterxml.jackson.core:jackson-databind")
+}

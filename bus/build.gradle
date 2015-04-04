@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+group = 'com.bus.service'
+version = '15.04.04'
+
+jar {
+    baseName = 'bus'
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	flatDir {
+		dirs '../libs/'
+	}
+}
+
+dependencies {
+	compile("com.h2database:h2:1.4.186")
+    	compile("com.fasterxml.jackson.core:jackson-databind:2.4.4")
+	compile project(':bus-interfaces')
+}

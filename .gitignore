@@ -1,0 +1,29 @@
+*.class
+.classpath
+
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+bus-interfaces/.classpath
+bus-interfaces/.gradle/
+bus-interfaces/.project
+bus-interfaces/.settings/
+bus-interfaces/build/
+bus/.classpath
+bus/.gradle/
+bus/.project
+bus/.settings/
+bus/build/
+build/
+.gradle/
+.project
+.settings/
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
