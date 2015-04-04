@@ -1,0 +1,26 @@
+04-04 12:54:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:55:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:55:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MYGUESTS" already exists; SQL statement:
+CREATE TABLE MyGuests (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,firstname VARCHAR(30) NOT NULL,lastname VARCHAR(30) NOT NULL,email VARCHAR(50),reg_date TIMESTAMP) [42101-186]
+04-04 12:55:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:58:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:58:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:58:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 12:59:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: No data is available [2000-186]
+04-04 13:00:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Invalid value "0" for parameter "columnIndex" [90008-186]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:228)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3163)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3191)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:284)
+	at com.bus.service.Test.main(Test.java:38)

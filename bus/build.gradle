@@ -18,6 +18,11 @@ repositories {
 }
 
 dependencies {
+	compile("org.hibernate:hibernate-core:4.3.8.Final")
+	compile("org.springframework:spring-context:4.1.6.RELEASE")
+	compile("org.springframework:spring-jdbc:4.1.6.RELEASE")
+	compile("org.springframework:spring-orm:4.1.6.RELEASE")
+	compile("mysql:mysql-connector-java:5.1.32")
 	compile("com.h2database:h2:1.4.186")
     	compile("com.fasterxml.jackson.core:jackson-databind:2.4.4")
 	compile project(':bus-interfaces')
